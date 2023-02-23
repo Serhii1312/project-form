@@ -1,0 +1,308 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+input,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 64px auto;
+}
+
+.title-h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color:#4E5150;
+  text-transform: capitalize;
+  margin: 0px 0px 50px 0px;
+}
+
+.title-h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin: 0px 0px 15px 0px;
+}
+
+.label-text {
+  display:block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0px 0px 7px 0px;
+  color: #4F4F4F;
+}
+
+.input-wrapper {
+  margin: 0px 0px 42px 0px;
+}
+
+.form-input {
+  font-size: 16px;
+  width: 100%;
+  height: 56px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding: 15px 50px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.input-block {
+  position: relative;
+  color: #828282;
+}
+
+.input-block i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title-address {
+  margin: 58px 0px 15px 0px;
+}
+
+.country-info {
+  display: flex;
+  margin: 35px 0px 0px 0px;
+  gap: 31px;
+}
+
+.form-country {
+  width: 215px;
+  height: 56px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0px 0px 0px 52px;
+}
+
+.select-country{
+  text-transform: capitalize;
+  width: 21px;
+  height: 21px;
+  background: #E0E0E0;
+  border-radius: 4px;
+  border: none;
+  color:#828282;
+  outline: none;
+}
+
+.select-country-option {
+  border: 1px solid #828282;
+  border-radius: 12px;
+  width: 217px;
+  height: 56px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-transform: capitalize;
+}
+
+.column-country {
+  flex-direction: column;
+}
+
+.text-country {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+  margin: 0px 0px 7px 0px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 21px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F4F4F;
+}
+
+.button {
+  margin: 23px 0px 0px 0px;
+  text-align: right;
+}
+
+.button-input {
+  background: #F2994A;
+  border-radius: 12px;
+  width: 166px;
+  height: 54px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 420px;
+  height: 600px;
+  background: #F2F2F2;
+  margin: 80px auto;
+  border-radius: 12px;
+}
+
+.side-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px 0px 0px;
+}
+
+.side-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.photo-side {
+  border-radius: 14px;
+}
+
+.side-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4E5150;
+  padding: 0px 0px 5px 0px;
+}
+
+.button-side {
+  Width: 125px;
+  Height: 45px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.side-description{
+  display: flex;
+  gap: 8px;
+  padding: 0px 0px 24px 0px;
+  align-items: center;
+}
+
+.side-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F2994A;
+}
+
+.side-price-description {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: line-through;
+  color: #4E5150;
+}
+
+.side-number {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+.footer-side {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #BDBDBD;
+  padding: 10px 0px 10px 0px;
+}
+
+.footer-number {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 0px 0px 14px 0px;
+}
+
+.count-button {
+  line-height: 10px;
+  background: #E0E0E0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

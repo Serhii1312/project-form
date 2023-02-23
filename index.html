@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="container">
+        <div class="main-wrapper">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <h1 class="title-h1">checkout</h1>
+                <h2 class="title-h2">Contact information</h2>
+                <div class="input-wrapper">
+                    <label for="email" class="label-text"> E-mail</label>
+                    <div class="input-block">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="useremail" id="email" value="" class="form-input" placeholder="Enter your email..."></input>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label for="phone" class="label-text">Phone</label>
+                    <div class="input-block">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="number" id="phone" name="usernumber" value="" class="form-input" placeholder="Enter your phone..."></input>
+                    </div>
+                </div>
+
+                <h2 class="title-h2 title-address">Shipping address</h2>
+                <div class="input-wrapper">
+                    <label for="name" class="label-text">Full name</label>
+                    <div class="input-block">
+                        <i class="fa-duotone fa-circle-user fa-solid"></i>
+                        <input type="text" id="name" name="username" value="" class="form-input" placeholder="Your username..."></input>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label for="address" class="label-text">Address</label>
+                    <div class="input-block">
+                        <i class="fa-sharp fa-solid fa-house"></i>
+                        <input type="text" id="address" name="useraddress" value="" class="form-input" placeholder="Your address..."></input>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label for="city" class="label-text">City</label>
+                    <div class="input-block">
+                        <i class="fa-solid fa-city"></i>
+                        <input type="text" id="city" name="usercity" value="" class="form-input" placeholder="Your city..."></input>
+                    </div>
+                </div>
+                <div class="country-info">
+                    <div class="column-country">
+                        <label for="country" class="text-country">Country</label>
+                        <div class="input-block">
+                            <i class="fa-solid fa-earth-americas"></i>
+                        <select name="country" class="select-country-option">
+                            <option value="placeholder" disabled selected>your country</option>
+                            <option value="ukraine" placeholder="Select your country">ukraine</option>
+                            <option value="spain">spain</option>
+                            <option value="italy">italy</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="column-country">
+                        <label for="postal-code" class="text-country">Postal code</label>
+                        <div class="input-block">
+                            <i class="fa-sharp fa-solid fa-building-user"></i>
+                            <input type="text" id="postal-code" name="usercode" value="" class="form-country" placeholder="Your postal code..."></input>
+                        </select>
+                        </div>
+                    </div>
+                </div>    
+                <div class="checkbox">
+                    <input type="checkbox" name="info" value="yes" class="checkbox-input">
+                    <p class="checkbox-info">Save this information for next time</p>
+                </div>
+                <div class="button">
+                    <button type="submit" class="button-input">Continue</button>
+                </div>
+            </form>
+            <div class="side-wrapper">
+                <div class="side-container">
+                <div class="side-card">
+                    <div class="card-img">
+                        <img src="https://lingopolo.org/french/sites/lingopolo.org.french/files/styles/entry/public/images/2020/05/26/backpack.jpg" class="photo-side" width="150px" height="125px">
+                    </div >
+                    <div class="side-content">
+                        <h3 class="side-title">Vintage Backbag</h3>
+                        <div class="side-description">
+                            <p class="side-price">$54.99</p><p class="side-price-description">$94.99 </p>
+                        </div>
+                        <div class="button-side">
+                            <span class="plus count-button">+</span>
+                            <p class="side-number">1</p>
+                            <span class="minus count-button">-</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-card">
+                    <div class="card-img">
+                        <img src="https://static01.nyt.com/images/2022/03/17/us/08xpsatan-shoe/merlin_186039729_cdb846bf-dc3f-49cf-8552-e3992140338b-mobileMasterAt3x.jpg" class="photo-side" width="150px" height="125px">
+                    </div >
+                    <div class="side-content">
+                        <h3 class="side-title">Levi Shoes</h3>
+                        <div class="side-description">
+                            <p class="side-price">$74.99</p><p class="side-price-description">$124.99</p>
+                        </div>
+                        <div class="button-side">
+                            <span class="plus count-button">+</span>
+                            <p class="side-number">1</p>
+                            <span class="minus count-button">-</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="footer-content">
+                    <div class="footer-side">
+                        <p class="footer-text">shipping</p>
+                        <p class="footer-number">$19</p>
+                    </div>
+                    <div class="footer-side">
+                        <p class="footer-text">total</p>
+                        <p class="footer-number">$148.98</p>
+                    </div>
+                </div>
+                
+            </div>
+</body>
+</html>
